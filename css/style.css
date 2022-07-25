@@ -1,0 +1,224 @@
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position:relative;
+  z-index:1;
+
+}
+.col-lg-4{
+  text-align: center;
+}
+
+.icon{
+color: #808000;
+margin-bottom:1rem;
+
+}
+.icon:hover{
+  color:#00BFFF;
+}
+.Title-image{
+ padding-left: 30px;
+
+
+  width:60%;
+
+  position:absolute;
+  right:20%;
+	top:10%;
+	bottom:10%;
+}
+
+
+#headings {
+	text-align: center;
+	padding: 5px;
+	padding-top: 15px;
+	background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+	border-bottom: groove;
+	border-color: #b3f5ea;
+	color: #233863;
+}
+
+.stats-box {
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	padding-top: 7px;
+	text-align: center;
+	border-style: groove;
+	box-sizing: border-box;
+}
+
+#container-stats {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-image: linear-gradient(#ebebeb, #d1d1d1);
+}
+
+.foot {
+	text-align: center;
+	background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+	background-size: 500% 500%;
+	animation: gradient 7s ease infinite;
+	border-top: groove;
+	border-color: #b3f5ea;
+}
+
+#main-para {
+	padding: 40px;
+	background-image: url("../img/learning.jpg");
+	background-size: 100% 100%;
+
+}
+
+#courses{
+  padding:100px;
+  text-align: center;
+		background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+		animation: gradient 7s ease infinite;
+		background-size: 400% 400%;
+}
+
+.download-button{
+  margin:5% 3% 5% 0%;
+
+  /* top right left bottom */
+}
+
+/* call to action */
+#cta{
+background-color: white;
+  font-family: "Montserrat";
+  font-weight:900;
+  text-align:center;
+  padding: 7% 15%;
+	color:#1e1f1f;
+
+}
+.cta-heading{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* Testimonial section */
+#testimonials{
+
+  text-align: center;
+	background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+	animation: gradient 7s ease infinite;
+	background-size: 400% 400%;
+  color:#1e1f1f;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+
+}
+
+
+#main-form {
+	display: inline;
+}
+
+.card {
+	background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+	margin: 7px;
+	margin-top: 10px;
+	box-sizing: border-box;
+}
+
+.card:hover {
+	background-image: linear-gradient(0deg, #E3FDF5 0%, #FFE6FA 100%);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	cursor: pointer;
+}
+
+h2 {
+	color: #211f1f;
+}
+
+h5 {
+	color: #21314a;
+}
+
+p {
+	color: #3d3d3d;
+}
+
+/* contact me */
+.button {
+    padding: 10px 12px;
+		margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #337ab7;
+    color: #fff;
+}
+textarea.form-control {
+    height: auto;
+}
+.contact
+{
+	font-family: "Montserrat";
+	font-weight:900;
+margin-left: 30%;
+width: 700px ;
+margin-top: 2%;
+background-color: #fff;
+padding: 30px;
+padding-right: 60px;
+
+ }
+label   {
+	font-family: "Montserrat";
+	font-size: 18px;
+}
+.success
+{
+	margin: 5px auto;
+  border-radius: 5px;
+  border: 3px solid #fff;
+  background: #33CC00;
+  color: #fff;
+font-size: 20px;
+  padding: 10px;
+  box-shadow: 10px 5px 5px grey;
+}

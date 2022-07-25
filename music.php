@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Courses</title>
+</head>
+<?php include 'components/head.html' ?>
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+background-image: url('img/bimg.jpg');
+ background-size:auto;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px;
+     margin: 2%;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+
+
+
+ }
+
+.title{
+
+  text-align: center;
+  padding: 10px;
+
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+</style>
+<body>
+
+
+  <div class="container-fluid" id="headings">
+      <h1 style="font-size:50px;"><strong>Ikigai Tutorials</strong></h1>
+      <h3 style="color: #1e1f1f;">Let's make the learning methods fun!<a href="logout.php"><button class="btn btn-dark" style="margin-left:92%">Logout</button></a> </h3>
+
+
+  </div>
+
+<div class="main">
+
+ <!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="img/guitar.jpg" width="250" height="200"/>
+</div>
+<div class="title">
+ <h1>Guitar</h1>
+</div>
+<div class="des">
+ <p>Course objective: Students will perform exercises such as playing through scales, chord charts, strumming patterns and rhythms.
+</p>
+<a href="m_courses.php"><button>Explore</button></a>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="img/piano.jpg" width="250" height="200">
+</div>
+<div class="title">
+ <h1>Piano</h1>
+</div>
+<div class="des">
+ <p>Course objective: Intent of course is given to basic keyboard technique, score reading and performance, harmonization, and transposition.</p>
+<a href="m_courses.php"><button>Explore</button></a>
+
+ </script>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="img/tabla.webp" width="250" height="200">
+</div>
+<div class="title">
+ <h1>
+Tabla</h1>
+</div>
+<div class="des">
+ <p>Course objective: To make the students aware about the rich Indian culture of classical Music specially in the field of Indian Percussion instruments.</p>
+<a href="m_courses.php"><button>Explore</button></a>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="img/violin.webp" width="250" height="200">
+</div>
+<div class="title">
+ <h1>
+Violin</h1>
+</div>
+<div class="des">
+ <p>Course objective: To make the students aware about the rich Indian culture of classical Music specially in the field of Indian Percussion instruments.</p>
+<a href="m_courses.php"><button>Explore</button></a>
+</div>
+</div>
+<!--cards -->
+
+
+
+
+
+<?php include 'components/footer.html'  ?>
+</body>
+</html>
